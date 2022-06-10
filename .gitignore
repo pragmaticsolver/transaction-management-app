@@ -1,0 +1,7 @@
+node_modules
+functions/node_modules
+functions/serviceAccount.json
+.DS_Store
+dist
+dist-ssr
+.env
