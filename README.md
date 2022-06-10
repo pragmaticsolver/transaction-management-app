@@ -18,6 +18,7 @@ Transaction Management App, built with Vite + React + Tailwind CSS, powered by F
 
       ### Install dependencies
       cd functions
+      
       npm install
 
       ### import json data to the firestore
