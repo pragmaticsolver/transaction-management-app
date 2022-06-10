@@ -1,6 +1,6 @@
-# Pharmacy App
+# Transaction Management App
 
-Pharmacy App, built with Vite + React + Tailwind CSS, powered by Firebase.
+Transaction Management App, built with Vite + React + Tailwind CSS, powered by Firebase.
 
 ## Setup
 
@@ -14,4 +14,13 @@ Pharmacy App, built with Vite + React + Tailwind CSS, powered by Firebase.
 
 2. Copy the relevant config values (values that I emailed to you) to `.env`
 
-3. Start the dev server with the command `npm run dev`. Open your browser and point it to `localhost:3000`
+3. Import data.json to the firestore
+
+      ### Install dependencies
+      cd functions
+      npm install
+
+      ### import json data to the firestore
+      node import.js
+
+4. Start the dev server with the command `npm run dev`. Open your browser and point it to `localhost:3000`
